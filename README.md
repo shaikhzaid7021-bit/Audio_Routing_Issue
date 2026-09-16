@@ -64,3 +64,5 @@ Since OS-level (WASAPI) routing can't distinguish windows of the same process, t
 **Known limitation:** doesn't cover raw `AudioContext`-based audio (Web Audio API) since Chromium hasn't shipped `AudioContext.setSinkId()` yet — only `<audio>`/`<video>` elements are covered. For a browser-based use case (YouTube, Spotify web, Twitch, etc.) this covers the overwhelming majority of real-world audio.
 
 Prior art: a Chrome extension called **AuRo** already does exactly this patching technique for per-tab routing, which validates the core mechanism works in Chromium/Brave today.
+
+To load the extension: chrome://extensions → enable Developer mode → "Load unpacked" → select this repository's root folder (the one containing manifest.json).
