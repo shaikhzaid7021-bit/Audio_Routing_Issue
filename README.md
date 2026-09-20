@@ -66,3 +66,6 @@ Since OS-level (WASAPI) routing can't distinguish windows of the same process, t
 Prior art: a Chrome extension called **AuRo** already does exactly this patching technique for per-tab routing, which validates the core mechanism works in Chromium/Brave today.
 
 To load the extension: chrome://extensions → enable Developer mode → "Load unpacked" → select this repository's root folder (the one containing manifest.json).
+
+The current version only works for YouTube 
+While going through the code, you may find some non-English comments, so please use Google Translate to understand the code better
